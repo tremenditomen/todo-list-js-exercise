@@ -18,26 +18,14 @@ const task = {
 };
  return task; 
 };
-
-// Mark a task as complete by setting the task's status in the `taskComplete` array to `true`
-
-
-// Print the state of a task to the console in a nice readable way
-// function logTaskState(task) {
-  
-
-// }
-
-// DRIVER CODE BELOW
-
-const task1 = newTask("Clean Cat Litter"); // task 0
-const task2 = newTask("Do Laundry");
+const task1 = newTask("Clean Cat Litter","thow cat litter out"); // task 0
+const task2 = newTask("Do Laundry","get rid of dirty clothes");
 const tasks = [task1,task2]
  // task 1
-console.log(tasks)
+// console.log(tasks)
 task1.logState(); // Clean Cat Litter has not been completed
-task1.markCompleted();
-task1.logState(); // Clean Cat Litter has been completed
-console.log("TASKS",tasks)
+task1.markCompleted;
+task1.logState; // Clean Cat Litter has been completed
 task2.title
-task2.markCompleted();
+task2.markCompleted;
+console.log("TASKS",tasks)
